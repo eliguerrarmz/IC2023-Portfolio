@@ -2,16 +2,14 @@
 
 /* HEADER BANNER */
 .nameTitle{
-    left: 500px;
-    top: 500px ;
-    transform: translate(-50%,-50%);
-    /* width: 300px; */
-}
+   display: block;
+   font-size: xx-large;
+   text-align: center;}
 
+header {
+    background-color: #BBCB50;
+    padding: 128px 40px;
+    background-image: url(imgs/gradi2.jpg);}
+header{
+    display: block;} 
 
-.headPic {
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
