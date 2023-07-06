@@ -1,15 +1,151 @@
+/* FONTS */
+@font-face {
+    font-family: josefin;
+    src: url(fonts/josefin.TTF);}
+@font-face {
+    font-family: chivo;
+    src: url(fonts/chivo.TTF);
+}
+@font-face {
+    font-family: krub;
+    src: url(fonts/krub.TTF);
+}
+/* NAVAGATION BAR */
 
+#navbar{
+    overflow: hidden;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content{
+    padding:16px;
+}
+
+
+
+/* SCROLLBAR */
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #d49bae68 ; 
+        border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #D49BAE; 
+    }
+   
 
 /* HEADER BANNER */
-.nameTitle{
-   display: block;
-   font-size: xx-large;
-   text-align: center;}
+    .nameTitle{
+        font-family: chivo;
+        font-weight: 7;
+        display: block;
+        font-size: 15vh;
+        text-align: center;
+        margin: 2px;
+    }
+        
+    header {
+        background-color: #BBCB50;
+        padding:  128px 16px;
+        background-image: url(imgs/gradi2.jpg);}
 
-header {
-    background-color: #BBCB50;
-    padding: 128px 40px;
-    background-image: url(imgs/gradi2.jpg);}
-header{
-    display: block;} 
+    header{
+        display: block;} 
+
+    .cap{
+        text-align: center;
+        font-weight: 10;
+        font-family: chivo;
+        font-size: 2.2vh
+    }
+
+/* BODY BACKGROUND */
+body{
+    background-color: #eae9e7;
+}
+
+/* SEPRATOR LINE */
+hr{
+    border-top: 1px solid #BBCB50 ;
+}
+
+/* HEADERS */
+.headnam{
+    font-weight: 10;
+}
+
+/* NAVAGATION BAR */
+   
+
+/* ABOUT ME SECTION */
+#primsec{
+    position:relative;
+    left: 40px;
+    font-family: krub;
+    font-weight: 10;
+    font-size: 4vh;
+    display: block;
+    padding: 128px 60px;
+
+}
+/* SKILLS SECTIONS */
+#segsec{
+    position:relative;
+    left: 40px;
+    font-family: krub;
+    font-size: 4vh;
+    display: block;
+    font-weight: 10;
+    padding: 128px 60px;
+}
+
+/* PROJECTS SECTIONS */
+#tersec{
+    position:relative;
+    left: 40px;
+    font-family: krub;
+    font-size: 4vh;
+    display: block;
+    font-weight: 10;
+    padding: 128px 60px;
+}
+
+/* CONTACT ME SECTION */
+#ultsec{
+    position: relative;
+    left: 40px;
+    font-family: krub;
+    font-size: 4vh;
+    display: block;
+    font-weight: 10;
+    padding: 128px 60px;
+}
+
+
 
