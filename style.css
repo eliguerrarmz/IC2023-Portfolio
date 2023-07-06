@@ -10,6 +10,10 @@
     font-family: krub;
     src: url(fonts/krub.TTF);
 }
+@font-face {
+    font-family: gasoek;
+    src: url(fonts/gasoek.TTF);
+}
 /* NAVAGATION BAR */
 
 #navbar{
@@ -22,7 +26,26 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-family: krub;
 }
+    /* HOVER EFFECT OVER THE NAV BAR */
+    .home:hover{
+        color: #D49BAE;
+    }
+    .abt:hover{
+        color: #BBCB50;
+    }
+    .ski:hover{
+        color:#506dcb
+    }
+    .proj:hover{
+        color:#cb5060
+    }
+    .cont:hover{
+        color:#78861a
+    }
+
+
 
 .sticky{
     position: fixed;
@@ -32,6 +55,10 @@
 
 .content{
     padding:16px;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 
@@ -62,7 +89,7 @@
 
 /* HEADER BANNER */
     .nameTitle{
-        font-family: chivo;
+        font-family: gasoek;
         font-weight: 7;
         display: block;
         font-size: 15vh;
@@ -98,17 +125,16 @@ hr{
 /* HEADERS */
 .headnam{
     font-weight: 10;
+   
 }
-
-/* NAVAGATION BAR */
    
 
 /* ABOUT ME SECTION */
 #primsec{
     position:relative;
-    left: 40px;
+    
     font-family: krub;
-    font-weight: 10;
+    left: 40px;
     font-size: 4vh;
     display: block;
     padding: 128px 60px;
