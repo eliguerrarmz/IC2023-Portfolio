@@ -180,13 +180,30 @@ hr{
 #ultsec{
     position: relative;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1px;
     font-family: krub;
     font-size: 4vh;
     display: block;
     font-weight: 10;
     padding: 128px 60px;
 }
+.mail{
+    text-decoration: none;
+    color: #D49BAE;
+}
 
+.mail:hover{
+    color: #f3bdcd;
+    font-weight: 20;
+    
+}
+
+.git{
+    width: 28px;
+    height: auto;
+}
+.git:hover{
+    background-color: #D49BAE;
+}
 
 
