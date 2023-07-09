@@ -16,9 +16,21 @@
 }
 /* NAVAGATION BAR */
 
+.nm {
+    font-family: gasoek;
+    text-align: right;
+color: #011638c0;
+    font-language-override: left;
+    padding: 13px;
+    
+}
+
 #navbar{
     overflow: hidden;
+    background-color: #92a805ab
+    ;
 }
+
 
 #navbar a{
     float: left;
@@ -27,7 +39,23 @@
     padding: 14px;
     text-decoration: none;
     font-family: krub;
+} 
+
+#navbar a.active {
+    background-color: #011638;
+    color: white;
 }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
     /* HOVER EFFECT OVER THE NAV BAR */
     .home:hover{
         color: #D49BAE;
@@ -44,24 +72,6 @@
     .cont:hover{
         color:#78861a
     }
-
-
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.content{
-    padding:16px;
-}
-
-.sticky + .content {
-    padding-top: 60px;
-}
-
-
 
 /* SCROLLBAR */
 
@@ -125,7 +135,11 @@ hr{
 /* HEADERS */
 .headnam{
     font-weight: 10;
-   
+    font-family: chivo ;
+}
+
+.content{
+    padding:16px;
 }
    
 
@@ -165,7 +179,8 @@ hr{
 /* CONTACT ME SECTION */
 #ultsec{
     position: relative;
-    left: 40px;
+    text-align: center;
+    margin-top: 10px;
     font-family: krub;
     font-size: 4vh;
     display: block;
