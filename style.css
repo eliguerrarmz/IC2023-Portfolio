@@ -26,7 +26,10 @@
 
 #navbar{
     overflow: hidden;
-    background-color: #92a805ab;
+    background-color: #92a805d0;
+    z-index: 1;
+    width: 100%;
+    
 }
 
 
@@ -154,6 +157,7 @@ hr{
 
 .content{
     padding:16px;
+   
 } 
    
 
@@ -166,11 +170,11 @@ hr{
     font-size: 4vh;
     display: block;
     padding: 128px 60px;
-
 }
 
 /* SKILLS SECTIONS */
 #segsec{
+    background-color: #D49BAE;
     position:relative;
     text-align: center;
     font-family: krub;
@@ -202,6 +206,7 @@ hr{
 
     #skiL{
         display: flex;
+        flex-wrap: wrap;
         align-items: baseline ;  
         align-content: center;
         justify-content: center;
@@ -254,17 +259,22 @@ hr{
 }
 
 .mail:hover{
-    color: #f3bdcd;
+    color: #896772;
     font-weight: 20;  
 }
 
 .git{
     width: 28px;
     height: auto;
+    margin: 5px;
 }
 
-.git:hover{
-    background-color: #D49BAE;
+
+.lin{
+    width: 28px;
+    height: auto;
+    margin: 5px;
 }
+
 
 
