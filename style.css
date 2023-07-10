@@ -19,31 +19,45 @@
 .nm {
     font-family: gasoek;
     text-align: right;
-color: #011638c0;
+    color: #011638c0;
     font-language-override: left;
     padding: 13px;
-    
 }
 
 #navbar{
     overflow: hidden;
-    background-color: #92a805ab
-    ;
+    background-color: #92a805ab;
 }
 
 
 #navbar a{
+    text-decoration: none;
     float: left;
     display: block;
     text-align: center;
     padding: 14px;
-    text-decoration: none;
     font-family: krub;
 } 
 
 #navbar a.active {
     background-color: #011638;
     color: white;
+}
+
+.abt{
+    color: #011638;
+}
+
+.ski{
+    color: #011638;
+}
+
+.proj{
+    color: #011638;
+}
+
+.cont{
+    color: #011638;
 }
 
 .sticky{
@@ -140,7 +154,7 @@ hr{
 
 .content{
     padding:16px;
-}
+} 
    
 
 /* ABOUT ME SECTION */
@@ -154,16 +168,54 @@ hr{
     padding: 128px 60px;
 
 }
+
 /* SKILLS SECTIONS */
 #segsec{
     position:relative;
-    left: 40px;
+    text-align: center;
     font-family: krub;
     font-size: 4vh;
     display: block;
     font-weight: 10;
     padding: 128px 60px;
 }
+    .skills{
+        top: 0%;
+        font-weight: 10;
+        font-family: chivo ;
+    }
+
+    .hlogo{
+        width: 120px;
+        margin: 70px;
+    }  
+
+    .clogo{
+        width: 120px;
+        margin: 70px;
+    }
+
+    .jslogo{
+        width: 100px;
+        margin: 70px;
+    }
+
+    #skiL{
+        display: flex;
+        align-items: baseline ;  
+        align-content: center;
+        justify-content: center;
+    }
+
+    #container div{
+      margin: 100px;
+      width: 100%;
+      padding: 10px;
+
+    }
+
+
+
 
 /* PROJECTS SECTIONS */
 #tersec{
@@ -187,6 +239,15 @@ hr{
     font-weight: 10;
     padding: 128px 60px;
 }
+
+.info{
+    font-size: 3vh;
+}
+
+.contactinfo{
+    font-size: 2.5vh;
+}
+
 .mail{
     text-decoration: none;
     color: #D49BAE;
@@ -194,14 +255,14 @@ hr{
 
 .mail:hover{
     color: #f3bdcd;
-    font-weight: 20;
-    
+    font-weight: 20;  
 }
 
 .git{
     width: 28px;
     height: auto;
 }
+
 .git:hover{
     background-color: #D49BAE;
 }
