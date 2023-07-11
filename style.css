@@ -249,18 +249,96 @@ hr{
     }
 
 
-
-
 /* PROJECTS SECTIONS */
 #tersec{
     position:relative;
-    left: 40px;
+    text-align:center ;
     font-family: krub;
     font-size: 4vh;
     display: block;
     font-weight: 10;
-    padding: 128px 60px;
+    padding: 50px 50px;
 }
+
+.projects{
+    font-weight: 10;
+    font: chivo;
+    margin-bottom: 10vh;
+}
+
+
+.pics{
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+.desc{
+    font-size: small;
+}
+
+#eco{
+    margin-left: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+}
+
+#eco:hover{ 
+    color: #d49bae57;
+}
+
+#adv{
+     margin: 20px; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+#adv:hover{
+    color:#d49bae57;
+}
+
+#buz{
+    margin-right: 20px; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    float:right;
+}
+
+#buz:hover{
+    color: #d49bae57
+}
+
+div.gal{
+    margin: 20px;
+    width: 100%;
+    flex-direction: row;
+}
+div.desc{
+    padding: 5px;
+    text-align: center;
+}
+
+
+.gal{
+    margin: 50px;
+    width: 100%;
+   
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+
+
+
+
 
 /* CONTACT ME SECTION */
 #ultsec{
@@ -271,7 +349,7 @@ hr{
     font-size: 4vh;
     display: block;
     font-weight: 10;
-    padding: 50px 60px;
+    padding: 60px 100px;
 }
 
 .info{
@@ -303,6 +381,10 @@ hr{
     width: 28px;
     height: auto;
     margin: 5px;
+}
+
+.ed{
+    font-size: 2vh;
 }
 
 
