@@ -164,14 +164,42 @@ hr{
 /* ABOUT ME SECTION */
 #primsec{
     position:relative;
-    
+    text-align: center;
     font-family: krub;
-    left: 40px;
+    
     font-size: 4vh;
     display: block;
-    padding: 128px 60px;
+    padding: 50px 30px;
 }
 
+.about{
+    font-weight: 10;
+    font: chivo;
+    margin-bottom: 10vh;
+}
+
+.me{
+    width: 300px;
+    height: auto;
+    float: right;
+    display: block; 
+    padding: 30px;
+    margin-right:50px;
+    border: 2px solid #011638; 
+}
+
+.intro{
+    font-family: gasoek;
+   
+    color:#294574;
+}
+
+.wor{
+    display: block;
+    margin-left: 50px;
+    text-align: left;
+
+}
 /* SKILLS SECTIONS */
 #segsec{
     background-color: #D49BAE;
@@ -181,7 +209,7 @@ hr{
     font-size: 4vh;
     display: block;
     font-weight: 10;
-    padding: 128px 60px;
+    padding: 50px 60px;
 }
     .skills{
         top: 0%;
@@ -190,33 +218,34 @@ hr{
     }
 
     .hlogo{
-        width: 120px;
-        margin: 70px;
+        width: 160px;
+        margin: 30px;
     }  
 
+
     .clogo{
-        width: 120px;
-        margin: 70px;
+        width: 160px;
+        margin: 30px;
     }
 
     .jslogo{
-        width: 100px;
-        margin: 70px;
+        width: 160px;
+        margin: 30px;
     }
 
     #skiL{
         display: flex;
         flex-wrap: wrap;
-        align-items: baseline ;  
+        align-items: baseline;  
+        height: auto;
         align-content: center;
         justify-content: center;
     }
 
     #container div{
-      margin: 100px;
+      margin: 50px;
       width: 100%;
-      padding: 10px;
-
+    
     }
 
 
@@ -236,17 +265,17 @@ hr{
 /* CONTACT ME SECTION */
 #ultsec{
     position: relative;
-    text-align: center;
+    left: 40px;
     margin-top: 1px;
     font-family: krub;
     font-size: 4vh;
     display: block;
     font-weight: 10;
-    padding: 128px 60px;
+    padding: 50px 60px;
 }
 
 .info{
-    font-size: 3vh;
+    font-size: 3.5vh;
 }
 
 .contactinfo{
